@@ -1,0 +1,6 @@
+- name: install Typesafe repo
+  apt: deb=http://apt.typesafe.com/repo-deb-build-0002.deb
+
+- name: install sbt
+  apt: name=sbt
+  update_cache: yes
